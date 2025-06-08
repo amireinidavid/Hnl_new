@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - HNL</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="shortcut icon" href="hnllog.png" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <header class="header grid-item">
+        <div class="header-content-wrapper">
+          <a href="index.html">
+            <img class="logo" src="hnllog.png" alt="HNL Logo" />
+          </a>
+          <nav class="main-nav">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+              <span></span>
+            </label>
+            <ul class="main-nav-list">
+              <li><a href="index.html">Prostate </a></li>
+              <li><a href="fibroid.html">Fibroid</a></li>
+              <li><a href="about.html" class="active">About Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="grid-item main-content-area">
+        <h1 class="page-heading">ABOUT US</h1>
+
+        <section class="who-we-are-section">
+          <h2>WHO WE ARE?</h2>
+          <p>
+            Welcome to [HNL] — Nigeria's trusted destination for natural health
+            solutions that work.
+          </p>
+          <p>
+            We are a wellness-focused company on a mission to help men regain
+            control of their health, vitality, and confidence — naturally,
+            safely, and effectively.
+          </p>
+          <p>
+            Thousands of Nigerian are silently struggling with health problems
+            —We believe you deserve better. Our signature all-natural
+            supplement, carefully formulated to help solve health issues, and
+            bring you lasting relief — without chemicals or side effects.
+          </p>
+        </section>
+
+        <section class="what-makes-us-different-section">
+          <h2>What Makes Us Different?</h2>
+          <ul>
+            <li data-icon="✅">
+              <strong>100% Natural & Safe:</strong> Our formula is made with
+              powerful herbs and nutrients used for generations and backed by
+              modern research.
+            </li>
+            <li data-icon="✅">
+              <strong>Locally Focused, Globally Inspired:</strong> We understand
+              the needs of the African man and tailor our solutions with both
+              local insight and global scientific standards.
+            </li>
+            <li data-icon="✅">
+              <strong>Real Results, Real People:</strong> We're proud to have
+              helped thousands of people across Nigeria live fuller, freer,
+              healthier lives.
+            </li>
+            <li data-icon="✅">
+              <strong>We Put People First:</strong> Your health and satisfaction
+              matter. Our customer care team is available to guide you every
+              step of the way — from consultation to delivery.
+            </li>
+          </ul>
+        </section>
+
+        <section class="our-mission-section">
+          <h2>Our Mission</h2>
+          <p>
+            To empower people to take charge of their health through natural,
+            affordable, and effective wellness solutions, starting with prostate
+            health and fibroid.
+          </p>
+        </section>
+
+        <section class="our-vision-section">
+          <h2>Our Vision</h2>
+          <p>
+            To become Africa's leading brand for men and women wellness —
+            combining nature, science, and compassion to improve lives.
+          </p>
+        </section>
+
+        <section class="join-movement-section">
+          <h2>Join the Movement</h2>
+          <p>
+            This is more than just a product — it's a movement. A movement for
+            better sleep, better health, and better living.
+          </p>
+          <div class="contact-prompt">
+            <p>
+              💬 Have questions? Want to know if this solution is right for you?
+            </p>
+            <p>We're here to help.</p>
+            <p>
+              📞 Contact us anytime at
+              <span class="phone-number">09152936116</span>
+            </p>
+            <p>
+              📧 Email:
+              <a href="mailto:hnlcarelife@gmail.com">hnlcarelife@gmail.com</a>
+            </p>
+            <p>📍 Based in Ado-Ekiti, Nigeria — Delivering Nationwide</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer grid-item">
+        <div class="footer-container">
+          <div class="footer-links">
+            <a href="terms.html">Terms and Conditions</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="privacy.html">Privacy and Policy</a>
+            <a href="about.html">About Us</a>
+          </div>
+          <div class="footer-copyright">Copyright © 2025</div>
+        </div>
+      </footer>
+    </div>
+    
+    <script>
+      // Close mobile menu when a link is clicked
+      document.querySelectorAll('.main-nav-list a').forEach(link => {
+        link.addEventListener('click', () => {
+          document.getElementById('nav-toggle').checked = false;
+        });
+      });
+    </script>
+  </body>
+</html>

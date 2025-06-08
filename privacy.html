@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNL Privacy Policy</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="privacy.css" />
+    <link rel="shortcut icon" href="hnllog.png" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <header class="header grid-item">
+        <div class="header-content-wrapper">
+          <a href="index.html">
+            <img class="logo" src="hnllog.png" alt="HNL Logo" />
+          </a>
+          <nav class="main-nav">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+              <span></span>
+            </label>
+            <ul class="main-nav-list">
+              <li><a href="index.html">Prostate </a></li>
+              <li><a href="fibroid.html">Fibroid</a></li>
+              <li><a href="privacy.html" class="active">Privacy Policy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="grid-item main-content-area">
+        <h1 class="policy-heading">Privacy Policy</h1>
+        <p class="policy-intro">
+          At **HNL**, we value your privacy and are committed to protecting any
+          personal information you share with us.
+        </p>
+        <p class="policy-intro">
+          This Privacy Policy explains how we collect, use, disclose, and
+          safeguard your data when you visit our website or use our services.
+        </p>
+
+        <section>
+          <h2>1. Information We Collect</h2>
+          <p>We may collect the following types of information:</p>
+          <ul>
+            <li>
+              **Personal Information:** Name, email address, phone number,
+              delivery address, and any details you voluntarily provide when
+              filling out forms (e.g., contact or order forms).
+            </li>
+            <li>
+              **Order Information:** Details about the products you purchase,
+              transaction history, and delivery preferences.
+            </li>
+            <li>
+              **Automatically Collected Data:** We may use cookies and tracking
+              tools (like Google Analytics) to collect non-personal data such as
+              IP address, browser type, device information, and Browse activity
+              on our site.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>2. How We Use Your Information</h2>
+          <p>We use your information to:</p>
+          <ul>
+            <li>Process and fulfill your orders.</li>
+            <li>Respond to your inquiries and provide customer support.</li>
+            <li>
+              Send order confirmations, delivery updates, and product
+              information.
+            </li>
+            <li>Improve our website and user experience.</li>
+            <li>Comply with legal or regulatory requirements.</li>
+          </ul>
+          <p>
+            We do not sell, rent, or share your personal data with third parties
+            for their marketing purposes.
+          </p>
+        </section>
+
+        <section>
+          <h2>3. Google Forms and Third-Party Tools</h2>
+          <p>
+            We use Google Forms to collect contact and order information. Google
+            securely stores this data and may use cookies as part of its
+            service. By submitting a form, you agree to Google's Privacy Policy:
+            <a href="https://policies.google.com/privacy" target="_blank"
+              >https://policies.google.com/privacy</a
+            >
+          </p>
+        </section>
+
+        <section>
+          <h2>4. Cookies</h2>
+          <p>We may use cookies to:</p>
+          <ul>
+            <li>Remember your preferences.</li>
+            <li>Analyze website traffic.</li>
+            <li>Improve site functionality.</li>
+          </ul>
+          <p>
+            You can control cookie preferences through your browser settings.
+          </p>
+        </section>
+
+        <section>
+          <h2>5. Data Protection</h2>
+          <p>
+            We take reasonable measures to protect your personal data from
+            unauthorized access, alteration, or disclosure. However, no method
+            of transmission over the internet is 100% secure.
+          </p>
+        </section>
+
+        <section>
+          <h2>6. Your Rights</h2>
+          <p>You have the right to:</p>
+          <ul>
+            <li>Request access to the personal data we hold about you.</li>
+            <li>Request corrections or updates to your data.</li>
+            <li>
+              Request deletion of your personal data (subject to legal
+              obligations).
+            </li>
+            <li>Opt-out of receiving marketing communications at any time.</li>
+          </ul>
+          <p>To make a request, contact us via the details below.</p>
+        </section>
+
+        <section>
+          <h2>7. Children's Privacy</h2>
+          <p>
+            Our website and services are not intended for individuals under the
+            age of 18. We do not knowingly collect data from children.
+          </p>
+        </section>
+
+        <section>
+          <h2>8. Changes to This Policy</h2>
+          <p>
+            We may update this Privacy Policy from time to time. All changes
+            will be posted on this page with the revised "Effective Date."
+          </p>
+        </section>
+      </main>
+
+      <footer class="footer grid-item">
+        <div class="footer-container">
+          <div class="footer-links">
+            <a href="terms.html">Terms and Conditions</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="privacy.html">Privacy and Policy</a>
+            <a href="about.html">About Us</a>
+          </div>
+          <div class="footer-copyright">Copyright © 2025</div>
+        </div>
+      </footer>
+    </div>
+    
+    <script>
+      // Close mobile menu when a link is clicked
+      document.querySelectorAll('.main-nav-list a').forEach(link => {
+        link.addEventListener('click', () => {
+          document.getElementById('nav-toggle').checked = false;
+        });
+      });
+    </script>
+  </body>
+</html>
